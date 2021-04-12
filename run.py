@@ -41,7 +41,7 @@ class ModelProcessor(object):
 
     def __init__(
         self,
-        model: str = 'bert-large-uncased',
+        model: str = 'bert-base-uncased',
         custom_model: PreTrainedModel = None,
         custom_tokenizer: PreTrainedTokenizer = None,
         hidden: int = -2,
